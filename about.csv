@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About - Employee Promotion Prediction</title>
+</head>
+<body style="margin:0; padding:0;">
+    <div style="background-color: #222; color: white; padding: 10px;">
+        <span>Employee Promotion Prediction Using ML</span>
+        <span style="float:right;">
+            <a href="/home" style="color:white; margin-right:10px;">Home</a>
+            <a href="/about" style="color:white; margin-right:10px;">About</a>
+            <a href="/predict" style="color:white;">Predict</a>
+        </span>
+    </div>
+    <img src="{{ url_for('static', filename='qq2.png') }}" alt="About Image" style="width:100%; height:auto;">
+</body>
+</html>
